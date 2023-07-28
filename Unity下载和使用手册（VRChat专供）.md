@@ -1,107 +1,107 @@
-# Unity���غ�ʹ���ֲᣨVRChatר����
+# Unity下载和使用手册（VRChat专供）
 
->���ߣ�VRCD
+>作者：VRCD
 
->����QQȺ��750258838�Ի�ȡ���຺����Դ
+>搜索QQ群：750258838以获取更多汉化资源
 
 >2023/7/28
 
-VRChat�����¼��VRC���ǻ���Unity���濪���������罻��Ϸ�������ڽ������Ŀ���������һ�����õ�Unity�����Ľ�������˳�������VRC������Unity����
+VRChat（以下简称VRC）是基于Unity引擎开发的虚拟社交游戏，我们在接下来的开发过程中一定会用到Unity，本文将帮助您顺利搭建用于VRC开发的Unity环境
 
-## ע��Unity�˺�
+## 注册Unity账号
 
-Unity������ַΪ��
+Unity官网网址为：
 https://unity.com
 
-����Ҫע��һ���˺ţ���������������Ͻ�ͷ���ٵ��Sign In��ť���Լ�ע��һ���˺š�
+您需要注册一个账号，进入官网后点击右上角头像，再点击Sign In按钮给自己注册一个账号。
 
-## ���غ�����Unity Hub
+## 下载和设置Unity Hub
 
-����Ҫ�������ص���Unity Hub��������ҳ����Download for Windows��ť�������ء�
+您需要首先下载的是Unity Hub，进入网页后点击Download for Windows按钮进行下载。
 
-�������ӣ�
+下载链接：
 https://unity.com/download
 
-����ָ��������а�װ������ȫ���Խ�Unity Hub��װ����ָ�������У������ǽ�����ѡ���·����Ҫ���ڸ��ӣ�������ע��·���в��ܺ��������ַ�������κλ����µĿ�����˵�������õ�ϰ�ߡ�
+根据指定步骤进行安装，您完全可以将Unity Hub安装到您指定的盘中，但我们建议您选择的路径不要过于复杂，而且请注意路径中不能含有中文字符，这对任何环境下的开发来说都是良好的习惯。
 
-�������ذ�װ��� Unity Hub ��������Ҫ���г����Խ�����һ������
+在您下载安装完成 Unity Hub 后您便需要运行程序以进行下一步操作
 
-��������״��ť���н�����������
+请点击齿轮状按钮进行接下来的设置
 
-�����ý���������Ҫ���������ͱ����ĵ���Ĭ��·�����������½��ļ�������ͳһ�����������غͰ�װUnity��Ĭ��·����Plastic SCM�ļ����ص�Ĭ��·�����ڱ����н������ἰ����
+在设置界面中您需要调整建立和保存文档的默认路径（建议您新建文件夹用于统一管理），下载和安装Unity的默认路径，Plastic SCM文件下载的默认路径（在本章中将不会提及）。
 
-����������ҪΪ�Լ����һ������֤��������������Unity��
+接下来您需要为自己获得一个许可证，用于正常运行Unity。
 
-���Licenses��������Ͻǵ�Add��
+点击Licenses，点击右上角的Add。
 
-���Get a free personal licenses��
+点击Get a free personal licenses。
 
-���������ɫ��Ŀ���۵���ͬ�ⰴť�����ҵ���һ��ʱ�䣬���ͻ���һ�������Լ��ĸ���ͨ��֤�ˡ�
+点击闪亮蓝色醒目显眼的我同意按钮，并且等上一会时间，您就会有一个属于自己的个人通行证了。
 
-�����������֤��ȡǰ��������
+个人免费许可证获取前决条件：
 
-����Unity Personal��������ҵĿ�ģ����������ڲ���Ŀ��ԭ����ƣ��������벻����10����Ԫ��
+无论Unity Personal是用于商业目的，还是用于内部项目或原型设计，年总收入不超过10万美元。
 
-û�гＯ����10����Ԫ���ʽ�
+没有筹集超过10万美元的资金。
 
-��ǰδ��ʹ�� Unity Plus �� Pro Plans��
+当前未在使用 Unity Plus 或 Pro Plans。
 
-���Ķ���ȷ�� Unity ����˽����
+已阅读并确认 Unity 的隐私政策
 
-## ���غͰ�װUnity
+## 下载和安装Unity
 
-�������������绷�����������ְ취��ȷ����unity��
+基于您所处网络环境，您有两种办法正确配置unity：
 
-### �������绷��
+### 国内网络环境
 
-��VRCDȺ�ļ����л�ȡUnity��װ����������Ϻ��ֶ���װUnity,����Unity Hub��ָ������unity��װĿ¼��
-�������ʱ���һ�����Unity��װ����ѡ���Թ���Ա���ݴ򿪡�
+从VRCD群文件夹中获取Unity安装包，下载完毕后，手动安装Unity,并在Unity Hub中指定您的unity安装目录。
+下载完毕时，右击您的Unity安装包，选择以管理员身份打开。
 
-������Unity2018.3.0f2�汾������win10����
+以下以Unity2018.3.0f2版本举例（win10）：
 
-���Next
+点击Next
 
-�����Ը�⿴��ȫ��������������Ȼ�����ᳫÿλ�û���ʹ���κ��������ṩ�ķ���ǰ��ϸ�Ķ�������
-��ѡI accept the terms of the License Agreement��Ȼ����Next
+如果您愿意看完全部条例。。。当然我们提倡每位用户在使用任何由他人提供的服务前仔细阅读条例。
+勾选I accept the terms of the License Agreement，然后点击Next
 
-��װ����Ĭ�Ϲ�ѡ���Next
+安装内容默认勾选点击Next
 
-��װ·��ѡ��ע�⣺·������ΪȫӢ�ģ������������ַ��������Ƽ�����Ŀ¼��<�̷�>:\Unity\UnityEditor\�£����Next����ʼ��װ�����ĵȴ���װ��ɼ��ɡ�
+安装路径选择：注意：路径必须为全英文，不能有中文字符。这里推荐放在目录：<盘符>:\Unity\UnityEditor\下，点击Next即开始安装，耐心等待安装完成即可。
 
-��װ��Ϻ���Complete������װ����
+安装完毕后点击Complete结束安装操作
 
-����֮������Ҫ��Unity Hub���ֶ����Ӹոհ�װ�õ�Unity�༭������������ť��������Ӣ�İ�HubΪ��
+在这之后，您需要在Unity Hub中手动添加刚刚安装好的Unity编辑器，点击这个按钮，这里以英文版Hub为例
 
-����������Ҫ�ڵ������ļ��������Ի�����ѡ��Unity.exe���Ϸֺ���Ǹո�����Unity��װĿ¼����/<��װĿ¼>/Editor/���·������Editor�ļ����е�Unity.exe�ļ���ѡ������������½�ѡ��༭�����ɡ�
+接下来您需要在弹出的文件管理器对话框中选中Unity.exe，上分红框是刚刚您的Unity安装目录，即/<安装目录>/Editor/，下方红框是Editor文件夹中的Unity.exe文件，选中它并点击右下角选择编辑器即可。
 
-### �������绷��
+### 国际网络环境
 
-�ӻ����������ذ�װ��������Ҫ���ص�Unity�汾��2019.4.31f1�� �·���ַΪ��������
+从互联网上下载安装包，您需要下载的Unity版本是2019.4.31f1， 下方网址为下载链接
 https://unity.com/releases/editor/archive
 
-�������²����ҵ���ȷ�汾���ҵ��Unity HUB��ť����Unity HUB�ڽ��а�װ��
+按照以下步骤找到正确版本并且点击Unity HUB按钮以在Unity HUB内进行安装。
 
-�����������Ļ��������������ʱ�ᷢ��һ����ת��Unity HUB�����󣬵�����պ���������������ת��Unity HUB�н��У���һ���辡����Ϣ����Ƭ�����أ�Ҳ����20-30�������ң���������װ������ָʾ��ɲ�����
+如果不出意外的话，您的浏览器此时会发送一个跳转至Unity HUB的请求，点击接收后您的下载任务将跳转至Unity HUB中进行，泡一杯茶尽情休息，在片刻下载（也许是20-30分钟左右）过后点击安装，按照指示完成操作。
 
-## Quest���������
+## Quest开发环境搭建
 
-���������غͰ�װunity�ķ�ʽ������Ϊ���ṩ���ַ�ʽ��ȷ�Quest����������
+基于您下载和安装unity的方式，我们为您提供两种方式正确搭建Quest开发环境。
 
-### ���ڹ������绷����װȺ��unity�༭��
+### 基于国内网络环境安装群内unity编辑器
 
-����Ҫ����Ⱥ���ṩ����һ����װ��,����ͼ��
+您需要下载群内提供的另一个安装包,如下图：
 
-������ɺ����²�����У�
+下载完成后按如下步骤进行：
 
-���������½����ߴ�һ����Ŀ
+接下来，新建或者打开一个项目
 
-����Ctrl+Shift+B,ѡ��Android������������»��棬��׿��༭����װ�ɹ�
+按下Ctrl+Shift+B,选择Android，如果出现如下画面，则安卓版编辑器安装成功
 
-### ���ڹ������绷��ͨ��Hub��װunity�༭��
+### 基于国际网络环境通过Hub安装unity编辑器
 
-��Unity Hub
-���installs�����ҵ�Unity 2019.4.31f1�汾������Ҳ���֣��ڵ�������ѡ�� Add modules��
+打开Unity Hub
+点击installs栏，找到Unity 2019.4.31f1版本，点击右侧齿轮，在弹出框中选择 Add modules。
 
-��ѡ���µ�ѡ��󵥻����½ǵ�install������Ѿ���װ���������ǻҵģ�
+勾选以下的选项后单击右下角的install（这边已经安装好了所以是灰的）
 
-��ɡ�
+完成。
